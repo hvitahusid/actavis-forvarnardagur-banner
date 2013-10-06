@@ -5,7 +5,7 @@ body {
 	font-family: Helvetica, Arial, sans-serif;
 }
 
-a, a:hover, a:visited, a:active {
+a, a:hover, a:visited, a:active, .hashtag {
 	color: #1d2c87;
 	text-decoration: none;
 }
@@ -61,5 +61,5 @@ ul#photos li img {
 }
 
 ul#photos li .text {
-	margin-bottom: 20px;
+	margin-bottom: 10px;
 }

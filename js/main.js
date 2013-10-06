@@ -1,11 +1,10 @@
 $(document).ready(function() {
 
-	// Find all hashtags in text and wrap in <a> tag with class "hashtag":
 	$('#photos').find('li .text').each(function() {
 		var words = $(this).html().split(' ');
 		for(var i in words) {
 			if(words[i][0] === '#' || words[i][0] === '@') {
-				words[i] = '<a class="hashtag" target="new" href="#">' + words[i] + '</a>';
+				words[i] = '<span class="hashtag">' + words[i] + '</a>';
 			}
 		}
 		$(this).html(words.join(' '));
