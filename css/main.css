@@ -3,6 +3,7 @@ body {
 	background-color: #eaeaea;
 	font-size: 12px;
 	font-family: Helvetica, Arial, sans-serif;
+	cursor: pointer;
 }
 
 a, a:hover, a:visited, a:active, .hashtag {
@@ -55,9 +56,11 @@ ul#photos li {
 	border-bottom: 1px solid #fafafa;
 }
 
-ul#photos li img {
+ul#photos li div.image {
 	box-shadow: 0 0 10px 0px black;
 	margin-bottom: 12px;
+	height: 265px;
+	width: 265px;
 }
 
 ul#photos li .text {
