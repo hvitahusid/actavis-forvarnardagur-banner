@@ -66,3 +66,8 @@ ul#photos li div.image {
 ul#photos li .text {
 	margin-bottom: 10px;
 }
+
+ul#photos li .fb-like {
+	height: 21px;
+	overflow: hidden;
+}
